@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('font.ttf')format("truetype") ;
+     font-family: "merienda";
+    src: url('font\Merienda.ttf');
+    font-family: "roboto";
+    src: url('font\Roboto\Roboto-Medium.tff');
+    font-family: "Merienda";
+    src: url('font\Merienda\Merienda-Regular.tff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Merienda";
+    
+     font-family: "merienda";
+    src: url('font/Merienda.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+h1{
+  font-family: "Roboto"; 
+  text-decoration-color: blueviolet; 
+  color: orangered;
+}
+h2{
+  font-family: "roboto";  
+  color: darkgreen;
+  
+}
+h3{
+  font-family: "merienda";  
+  color: blueviolet;
+  
+}
+p{
+  font-family: "merienda";  
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  .column {
+  float: left;
+  width: 33.33%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+
+.top-right {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 80px;
+
+}
+
+.top-left {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+   font-weight: 80px;
+}
+.div1 {
+  border: lightgrey;
+  background-color: lightblue;
+  text-align: center;
+  text-decoration-color: skyblue;
+  
+  font-family: "Roboto"; }
+  .div2 {
+  border: 5px outset lightgrey;
+  background-color: lightblue;
+  text-align: center;
+  
+  font-family: "merienda"; }
+  .div3 {
+  border: 5px outset lightgrey;
+  background-color: lightblue;
+  text-align: center;
+  
+  font-family: "merienda"; }
+  .div4{
+  border: 5px outset lightgrey;
+  background-color: lightblue;
+  text-align: center;
+  
+  font-family: "merienda"; }
+   .div5{
+  border: 5px outset lightgrey;
+  background-color: lightblue;
+  text-align: center;
+  
+  font-family: "robotto"; }
